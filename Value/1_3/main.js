@@ -3,5 +3,5 @@ function diff(){
     let secAge = document.querySelector("#age2").valueAsNumber
     let result = document.querySelector(".result")
 
-    result.innerText += firstAge - secAge 
+    result.innerText += Math.abs(firstAge - secAge) 
 }
